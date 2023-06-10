@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HtmlTask8</title>
+</head>
+<body>
+    <h2 style="color: darkblue; text-align: center;">Registration Form</h2>
+    <table border="1" align="center">
+        <tr>
+            <th>First Name :</th>
+            <th><input type="text" name="FN"></th>
+        </tr>
+        <tr>
+            <th>Last Name :</th>
+            <th><input type="text" name="LN"></th>
+        </tr>
+        <tr>
+            <th>Email :</th>
+            <th><input type="email" name="Em"></th>
+        </tr>
+        <tr>
+            <th rowspan="3">Gender :</th>
+            <th><input type="radio" name="option" value="option1"> Male  </th>
+        </tr>
+        <tr><th><input type="radio" name="option" value="option2"> Female </th></tr>
+        <tr><th><input type="radio" name="option" value="option3"> Other  </th></tr>
+        <tr>
+            <th>Age :</th>
+            <th><input type="number" name="Ag"></th>
+        </tr> 
+        <tr>
+            <th>Phone Number :</th>
+            <th><input type="number" name="Ph"></th>
+        </tr>
+        <tr>
+            <th>Address :</th>
+            <th><textarea name="Ad" cols="50" rows="5"></textarea></th>
+        </tr>
+        <tr>
+            <th>State :</th>
+            <th><input type="text" name="St"></th>
+        </tr>
+        <tr>
+            <th>Country :</th>
+            <th><select>
+                <option>Select Country</option>
+                <option value="In">India</option>
+                <option value="Bn">Bangladesh</option>
+                <option value="Pk">Pakistan</option>
+                <option value="Nl">Nepal</option>
+                <option value="Sl">Srilanka</option>
+                <option value="Ch">China</option>
+            </select></th>
+        </tr>
+        <tr>
+            <th>Languages Known :</th>
+            <th><input type="checkbox" name="l1">
+                <label>Telugu</label>
+                <input type="checkbox" name="l2">
+                <label>English</label>
+                <input type="checkbox" name="l3">
+                <label>Hindi</label>
+                <input type="checkbox" name="l4">
+                <label>Kannada</label></th>
+        </tr>
+        <tr>
+            <th colspan="2"><input type="checkbox" name="l1">
+                Hereby I declare that all the given detais are true</th>
+        </tr>
+        <tr>
+            <th colspan="2">login to <a href="https://ethnus.com/" target="_blank">Ethnus</a> website</th>
+        </tr>
+    </table>
+    <br>
+    <div style="text-align: center;">
+        <button onclick="SubmitEvent">Submit</button>
+    </div>
+</body>
+</html>
